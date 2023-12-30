@@ -25,6 +25,7 @@ function bot_ui_ini(){
 	.then(function(){botui.message.add({delay:1100,content:"当然也会大家都会玩的游戏🎮~"})
 	.then(function(){botui.action.button({delay:1500,action:[{text:"能加个联系方式吗？🙋",value:"why-domain"}]})
 	.then(function(a){fifthpart()})})})},fifthpart=function(){botui.message.add({delay:1e3,content:"👀哦哟，被要联系方式了😚，自恋了自恋了~"})
-	.then(function(){botui.message.add({delay:1600,content:"当然可以加我la，下面有联系方式📱，不过要备注哟!"})})}}
+	.then(function(){botui.message.add({delay:1600,content:"当然可以加我la，下面有联系方式📱，不过要备注哟!"})
+	.then(function(){botui.message.add({delay:1500,content:"也欢迎您留言，我会及时回复的。邮箱：18916947008@163.com🍺🍺🍺"})})})}}
 //rebuild by neat 
 bot_ui_ini();
